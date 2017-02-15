@@ -20,7 +20,7 @@ class ElevatorRunner {
     Person rich = new Person("Rich");
     rich.whereAmI();
     rich.callElevator(elevator);
-    if (elevator.hasArrived()) {
+    if (elevator.hasArrived(rich)) {
       rich.getInElevator();
     } else {
       System.out.println("Still waiting!");

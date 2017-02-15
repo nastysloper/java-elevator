@@ -7,8 +7,8 @@
 public class Person {
 
   private int position;
-
   private String name;
+  private boolean isInElevator = false;
 
   public Person(String name) {
     this.position = 1;
@@ -30,5 +30,14 @@ public class Person {
   public void callElevator(Elevator elevator) {
     System.out.println("You pressed the call button!");
     elevator.call(this.getPosition());
+  }
+
+  public void getInElevator() {
+    this.isInElevator = true;
+    System.out.println(this.getName() + " is going for a ride in the elevator!");
+  }
+
+  public void getOutOfElevator() {
+    this.isInElevator = false;
   }
 }

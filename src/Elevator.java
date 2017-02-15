@@ -20,4 +20,12 @@ public class Elevator {
   public void call(int targetFloor) {
     this.position = targetFloor;
   }
+
+  public boolean hasArrived(Person person) {
+    if (person.getPosition() == this.getPosition()) {
+      return true;
+    } else {
+      return false;
+    }
+  }
 }
