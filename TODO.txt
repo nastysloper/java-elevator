@@ -10,3 +10,17 @@ I need to add some tests!
 I think I need to start refactoring file names:
 Elevator is an object (and so a class and file)
 main should be AppRunner or something.
+
+------------------------------------------------------------------------------------
+
+1. add package
+
+Objects:
+Floor
+Person
+Button - Floor
+Button - Elevator
+Button parent class
+
+
+
