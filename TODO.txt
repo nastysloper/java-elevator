@@ -24,8 +24,17 @@ Button parent class
 
 ____________________________________________________________________________________
 
-get in elevator, press a button, ride to a new floor.
+get in elevator, press a button, ride to a new floor. Get out.
 
 
 
+
+------------------------------------------------------------------------------------
+
+There's no concept of time (waiting for an elevator.
+No threads.
+No Collections.
+Streams
+Lambdas
+Guice
 

@@ -37,6 +37,10 @@ public class Person {
     System.out.println(this.getName() + " is going for a ride in the elevator!");
   }
 
+  public boolean isInElevator() {
+    return this.isInElevator;
+  }
+
   public void getOutOfElevator() {
     this.isInElevator = false;
   }
