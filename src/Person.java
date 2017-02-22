@@ -42,6 +42,7 @@ public class Person {
   }
 
   public void getOutOfElevator() {
+    System.out.println(this.getName() + " exits the elevator.");
     this.isInElevator = false;
   }
 }

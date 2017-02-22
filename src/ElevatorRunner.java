@@ -22,6 +22,11 @@ class ElevatorRunner {
     rich.callElevator(elevator);
     if (elevator.hasArrived(rich)) {
       rich.getInElevator();
+      elevator.moveToTargetFloor();
+      while(elevator.isMoving()) {
+        System.out.println("The elevator is moving.");
+      }
+      rich.getOutOfElevator();
     } else {
       System.out.println("Still waiting!");
     }
